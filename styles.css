@@ -1,0 +1,39 @@
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container {
+            
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          
+        #canvas{
+            border: solid 1px black;
+        }
+
+        #heading{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #color{
+
+            padding: 0px;
+            border: none;
+            background: none;
+            width: 44px;
+            height: 44px;
+        }
+
+        #thickness{
+            padding: 10px;
+        }
+        .float-left {
+            float:left;
+            width:400px; // or 33% for equal width independent of parent width
+        }

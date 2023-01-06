@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting App using javascript canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <div id="heading"><h3>Draw Anything Below</h3></div>
+    <div class="controls">
+
+        <div align="center" class="float-left">
+            <div><h4>Select Color</h4></div>
+            <div><input type="color" id="color"></div>
+        </div>
+        
+        <div align="center" class="float-left">
+            <div><h4>Select Brush Size</h4></div>
+            <div><input type="number" value="3" id="thickness"></div>
+        </div>
+        
+        <div align="center" class="float-left">
+            <div><h4>Click Button to clear Canvas</h4></div>
+            <div><button id="clear">Click to Clear</button></div>
+        </div>
+        
+        
+        
+    </div>
+    <div>
+    <canvas id="canvas" width="1500" height="500">
+
+
+
+    </canvas>
+</div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
